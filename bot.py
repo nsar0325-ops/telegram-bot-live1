@@ -2,7 +2,12 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 import os
 
-TOKEN = os.getenv("8572772636:AAHzNKW8WQFcN9kC4-Zm7gzZOtsUkzRZFDU")
+# Եթե Render-ում ես, թող այսպես մնա:
+TOKEN = os.getenv("TOKEN")
+
+# Եթե տեղական ես փորձում՝ փոխարինիր վերևի տողը այսով՝
+# TOKEN = "8572772636:AAHzNKW8WQFcN9kC4-Zm7gzZOtsUkzRZFDU"
+
 ADMIN_ID = 8301795891
 LINK = "https://verifytg.org/"
 
@@ -46,4 +51,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
