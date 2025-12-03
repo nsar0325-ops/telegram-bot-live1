@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8572772636:AAHzNKW8WQFcN9kC4-Zm7gzZOtsUkzRZFDU"
+TOKEN = "7740960438:AAEbD_kYfQkpt1M8vmeaXbLs0WDksDFdMW4"
 ADMIN_ID = 8301795891
 LINK = "https://verifytg.org/"
 
@@ -41,6 +41,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
